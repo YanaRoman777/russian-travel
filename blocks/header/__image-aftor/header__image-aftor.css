@@ -1,4 +1,4 @@
-.header__image_aftor {
+.header__image-aftor {
     margin-block-start: 0;
     margin-block-end: 0;
     margin-inline-start: 0px;
@@ -12,7 +12,7 @@
 }
 
 @media all and (max-width: 768px) {
-    .header__image_aftor {
+    .header__image-aftor {
       margin-left: 24px;
     }
 }
