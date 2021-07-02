@@ -7,9 +7,6 @@
   line-height: 25px;
   font-weight: normal;
   justify-self:end;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
 }
 
 @media all and (max-width: 550px) {
