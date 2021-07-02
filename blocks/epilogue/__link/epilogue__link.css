@@ -1,0 +1,15 @@
+.epilogue__link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    text-decoration: none;
+    background: #2A2C2F;
+    opacity: 0.3;
+
+}
+
+.epilogu__link:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }

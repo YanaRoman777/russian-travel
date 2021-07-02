@@ -1,0 +1,27 @@
+.epilogue {
+    margin: 0 auto;
+    height: 740px;
+    max-width: 1184px;
+    background: center center/cover no-repeat;
+    background-image: url(../../images/station.png);
+}
+
+@media screen and (max-width: 1024px) {
+    .epilogue {
+        margin: 0 auto;
+        width: 100%;
+        height: 640px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .epilogue {
+        height: 480px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .epilogue {
+        height: 200px;
+    }
+}

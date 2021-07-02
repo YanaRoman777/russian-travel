@@ -1,0 +1,11 @@
+.cards__link {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.cards__link:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.description__title {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 92px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+}
+
+@media all and (max-width: 768px) {
+    .description__title {
+        margin-top: 88px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .description__title {
+        margin-top: 64px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

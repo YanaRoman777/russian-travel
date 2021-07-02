@@ -1,0 +1,5 @@
+.cards__description {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  grid-area: text;
+  }

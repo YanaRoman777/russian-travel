@@ -1,0 +1,17 @@
+.cards__title {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  grid-area: header;
+  }
+
+@media all and (max-width: 768px) {
+  .cards__title {
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 46px;
+    max-width: 340px;
+  }
+}

@@ -1,0 +1,6 @@
+.cards__links {
+    display: grid;
+    align-self: end;
+    grid-area: links;
+    gap: 12px;
+}

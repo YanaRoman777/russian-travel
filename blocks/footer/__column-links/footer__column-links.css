@@ -1,0 +1,15 @@
+.footer__column-links {
+  display: grid;
+  align-content: center;
+  grid-template-columns: repeat(5, max-content);
+  gap: 18px;
+  justify-self:start;
+}
+
+@media all and (max-width: 550px) {
+  .footer__column-links {
+    grid-template-columns: max-content;
+    grid-template-rows: repeat(5, max-content);
+    gap: 32px;
+  }
+}
