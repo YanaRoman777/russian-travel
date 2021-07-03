@@ -1,5 +1,5 @@
 .header {
-  padding: 0 calc((100vw - max-content)/2);
+  padding: 0 calc((100vw - max-content) / 2);
   overflow: hidden;
   box-sizing: border-box;
 }

@@ -1,5 +1,5 @@
 .description {
-  padding: 0 calc((100vw - 690px)/2);
+  padding: 0 calc((100vw - 690px) / 2);
 }
 
 @media screen and (max-width: 1300px) {
