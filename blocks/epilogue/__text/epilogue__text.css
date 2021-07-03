@@ -12,6 +12,8 @@
     font-size: 18px;
     line-height: 22px;
     text-align: center;
+    position: relative;
+    z-index: 2;
 }
 
 @media all and (max-width: 320px) {
