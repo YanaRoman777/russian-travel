@@ -6,7 +6,13 @@
   justify-self:start;
 }
 
-@media all and (max-width: 550px) {
+@media all and (max-width: 680px) {
+  .footer__column-links {
+    gap: 10px;
+  }
+}
+
+@media all and (max-width: 650px) {
   .footer__column-links {
     grid-template-columns: max-content;
     grid-template-rows: repeat(5, max-content);
