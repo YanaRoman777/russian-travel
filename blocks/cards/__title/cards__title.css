@@ -13,5 +13,24 @@
     font-size: 42px;
     line-height: 46px;
     max-width: 340px;
+    max-height: 92px;
+  }
+
+  .cards__title:first-child {
+    max-width: 330px;
+    max-height: 92px;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .cards__title:first-child {
+    max-width: 340px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .cards__title {
+    font-size: 32px;
+    line-height: 35px;  
   }
 }

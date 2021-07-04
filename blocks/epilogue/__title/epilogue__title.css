@@ -7,37 +7,46 @@
     margin: auto;
     color: #FFF;
     text-decoration: none;
-    padding-top: 245px;
+    position: absolute;
+    top: 245px;
+    left: calc((100vw - 560px) / 2);
     max-width: 560px;
     max-height: 152px;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
     text-align: center;
-    position: relative;
-    z-index: 2;
+    z-index: 5;
+}
+
+@media all and (max-width: 1024px) {
+    .epilogue__title {
+        top: 195px;  
+    }
 }
 
 @media all and (max-width: 768px) {
     .epilogue__title {
-        padding-top: 115px;  
+        top: 115px;  
     }
 }
 
 @media all and (max-width: 560px) {
     .epilogue__title {
-        padding-top: 40px;
+        top: 60px;
         font-size: 42px;
         line-height: 35px;
         max-width: 350px;
+        left: calc((100vw - 350px) / 2);
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 380px) {
     .epilogue__title {
-        padding-top: 33px;
+        top: 33px;
         font-size: 32px;
         line-height: 35px;
         max-width: 288px;
+        left: calc((100vw - 288px) / 2);
     }
 }

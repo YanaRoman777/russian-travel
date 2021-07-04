@@ -5,20 +5,41 @@
     margin-inline-end: 0px;
     display: block;
     margin: 0 auto;
-    padding-top: 32px;
+    position: absolute;
+    top: 429px;
+    left: calc((100vw - 360px) / 2);
     max-width: 360px;
     max-height: 66px;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    position: relative;
-    z-index: 2;
+    z-index: 5;
 }
 
-@media all and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
+    .epilogue__text {
+        top: 379px;  
+    }
+}
+
+@media all and (max-width: 768px) {
+    .epilogue__text {
+        top: 299px;  
+    }
+}
+
+@media all and (max-width: 560px) {
+    .epilogue__text {
+        top: 200px;
+    }
+}
+
+@media all and (max-width: 380px) {
     .epilogue__text {
         font-size: 14px;
         line-height: 16px;
+        top: 119px;
+        left: calc((100vw - 288px) / 2);
     }
 }

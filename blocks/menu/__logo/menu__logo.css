@@ -1,3 +1,11 @@
 .menu__logo:hover {
     cursor: pointer;
+    opacity: 0.8;
+}
+
+@media all and (max-width: 320px) {
+    .menu__logo{
+        width: 142px;
+        height: 42px;
+    }
 }

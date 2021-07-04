@@ -20,12 +20,26 @@
 
 @media screen and (max-width: 1024px) {
     .cards__item {
-        grid-template-columns: calc(100%/2) calc(100%/2);
+        grid-template-columns: 440px 456px;
         gap: 32px;
     }
 }
 
-@media all and (max-width: 650px) {
+@media screen and (max-width: 950px) {
+    .cards__item {
+        grid-template-columns: calc(100%/2) calc(100%/2);
+        gap: 24px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .cards__item {
+        grid-template-columns: 340px 352px;
+        gap: 24px;
+    }
+}
+
+@media all and (max-width: 750px) {
     .cards__item {
         grid-template-columns: 1fr;
         grid-template-areas:

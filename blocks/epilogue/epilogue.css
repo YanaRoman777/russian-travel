@@ -21,7 +21,13 @@
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 560px) {
+    .epilogue {
+        height: 340px;
+    }
+}
+
+@media all and (max-width: 380px) {
     .epilogue {
         height: 200px;
     }

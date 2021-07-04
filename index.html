@@ -8,30 +8,30 @@
 </head>
 <body>
   <div class="page">
-    <nav class="menu">
-      <a href="" class="menu__item menu__logo"><img src="./images/__logo.svg" alt="Россия"> </a>
+    <header class="menu">
+      <a href="" class="menu__item menu__logo"><img src="./images/__logo.svg" alt="Россия" class="menu__image-logo"> </a>
       <div class="menu__item menu__lang">
-        <a class="menu__lang menu__lang_ru" href="#">Ru</a>
-        <a class="menu__lang menu__lang_en" href="#">En</a>
+        <a class="menu__lang menu__lang_active" href="#">Ru</a>
+        <a class="menu__lang" href="#">En</a>
       </div>
-    </nav>
-    <header class="header">
-      <h1 class="header__title">Путешествия по России</h1>     
-      <p class="header__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <div class="header__image">
-      <img  src="./images/header__image.png" alt="Маршрут" class="header__image-img">
-      <p class="header__image-aftor">Ваша полка — верхняя</p></div>
     </header>
     <main class="content">
+      <section class="introduction">
+        <h1 class="introduction__title">Путешествия по России</h1>     
+        <p class="introduction__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+        <div class="introduction__image">
+        <img  src="./images/header__image.png" alt="Маршрут" class="introduction__image-img">
+        <p class="introduction__image-aftor">Ваша полка — верхняя</p></div>
+      </section>
       <section class="description">
         <h2 class="description__title">Чего мы там не видели?</h2>
         <p class="description__paragraph">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="description__list">
-          <li class="description__list-item">Часовых поясов 11</li>
-          <li class="description__list-item">Объектов природного наследия ЮНЕСКО 12</li>
-          <li class="description__list-item">Объектов культурного наследия ЮНЕСКО 16</li>
-          <li class="description__list-item">Природных заповедников 105</li>
-          <li class="description__list-item">Аэропортов 241</li>
+          <li class="description__list-item">Часовых поясов <span class="description__list-hour">11</span></li>
+          <li class="description__list-item">Объектов природного наследия ЮНЕСКО <span class="description__list-hour">12</span></li>
+          <li class="description__list-item">Объектов культурного наследия ЮНЕСКО <span class="description__list-hour">16</span></li>
+          <li class="description__list-item">Природных заповедников <span class="description__list-hour">105</span></li>
+          <li class="description__list-item">Аэропортов <span class="description__list-hour">241</span></li>
         </ul>
       </section>
       <section class="photos">
@@ -51,7 +51,7 @@
       <section class="places">
         <div class="cards">
           <div class="cards__item">
-            <h3 class="cards__title">Куршская коса</h3>
+            <h3 class="cards__title">Куршская  коса</h3>
             <div class="cards__links">
               <h5 class="cards__url">URL</h5>
               <a href="http://park-kosa.ru" class="cards__link">park-kosa.ru</a>
@@ -119,11 +119,11 @@
         </div>    
       </section>
       <section class="epilogue">
-        <div class="cover">
-          <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="epilogue__link">
-            <h3 class="epilogue__title">До Байкала «на собаках»</h3>
-            <p class="epilogue__text">По мотивам учебной темы о Транссибе - путешествие от столицы до Байкала на электричках.</p>
-          </a></div>
+        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="epilogue__link">
+          <div class="cover"></div>
+          <h2 class="epilogue__title">До&nbsp;Байкала «на&nbsp;собаках»</h2>
+          <p class="epilogue__text">По мотивам учебной темы о Транссибе - путешествие от столицы до Байкала на электричках.</p>
+        </a>
       </section>
     </main>
     <footer class="footer">

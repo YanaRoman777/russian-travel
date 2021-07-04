@@ -3,6 +3,9 @@
   grid-template-columns: max-content max-content;
   padding: 92px 48px 24px;
   justify-content:space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+
 }
 
 @media all and (max-width: 768px) {
