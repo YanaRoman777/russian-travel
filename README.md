@@ -11,6 +11,6 @@
 
 **Сам проект**
 
-* Ознакомиться с проектом можно [здесь](https://yanaroman777.github.io/russian-travel/index.html)
+* Ознакомиться с проектом можно [здесь](https://yanaroman777.github.io/russian-travel/)
 
 Удачи!
