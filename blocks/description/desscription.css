@@ -1,10 +1,10 @@
 .description {
-  padding: 0 148px;
-  }
+  padding: 0 calc((100vw - 984px) / 2);
+}
 
 @media screen and (max-width: 1100px) {
   .description {
-    padding: 0 98px;
+    padding: 0 calc((100vw - 928px) / 2);
   }
 }
 
