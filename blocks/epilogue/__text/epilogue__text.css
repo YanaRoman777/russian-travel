@@ -4,11 +4,11 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     display: block;
-    margin: 0 auto;
     position: absolute;
     top: 429px;
-    left: 50%;
-    transform: translateX(-50%);
+    left:0;
+    right:0;
+    margin: auto;
     max-width: 360px;
     max-height: 66px;
     font-weight: normal;

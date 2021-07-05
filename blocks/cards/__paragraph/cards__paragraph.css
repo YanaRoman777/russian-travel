@@ -10,12 +10,12 @@
 }
 
 @media all and (max-width: 768px) {
-    .cards__paragrap {
+    .cards__paragraph {
         font-size: 16px;
         margin-bottom: 25px;
     }
 
-    .cards__paragrap:last-child {
+    .cards__paragraph:last-child {
         margin-bottom: 0;
     }
   }

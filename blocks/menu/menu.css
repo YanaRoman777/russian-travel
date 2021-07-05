@@ -2,19 +2,19 @@
     display: grid;
     grid-template-columns: max-content max-content;
     justify-content:space-between;
-    padding: 46px 48px 0;
+    padding: 28px 48px 0;
     align-items: center;
     max-width: 1280px;
     margin: 0 auto;
 }
 @media all and (max-width: 768px) {
     .menu {
-        padding: 46px 24px 0;
+        padding: 28px 24px 0;
     }
 }
 
 @media all and (max-width: 350px) {
     .menu {
-        padding: 30px 16px 0;
+        padding: 16px 16px 0;
     }
 }

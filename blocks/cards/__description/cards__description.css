@@ -9,3 +9,9 @@
     margin-bottom: 0;
   }
 }
+
+@media all and (max-width: 360px) {
+  .cards__description {
+    padding: 0 16px;
+  }
+} 

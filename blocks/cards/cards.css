@@ -8,4 +8,10 @@
   .cards {
     padding: 0 24px;
   }
-} 
+}
+
+@media all and (max-width: 360px) {
+  .cards {
+    padding: 0;
+  }
+}
